@@ -1,2 +1,0 @@
-# wikipediaclone
-Wikipedia clone

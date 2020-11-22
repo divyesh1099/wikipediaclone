@@ -1,0 +1,12 @@
+{% extends "encyclopedia/layout.html" %}
+{% block title %}
+{{title|safe }}
+{% endblock %}
+{% block nav %}
+{{ title|safe }}
+{% endblock %}
+{% block body %}
+<a href="/edit/{{ title }}">EDIT</a>
+<br>
+{{ description|safe }}
+{% endblock %}
